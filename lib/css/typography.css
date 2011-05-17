@@ -1,0 +1,82 @@
+/* Typography styles
+ -------------------------------------------------------------------------------- */
+
+body {
+    font:13px/1.231 sans-serif;
+    *font-size:small;
+    color:#333;
+    }
+
+pre, code, kbd, samp {font-family:monospace, sans-serif;}
+
+
+a:hover, a:active { outline: none; }
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+
+
+ins {
+    background-color:#ff9;
+    text-decoration:none;
+    color:#000;
+    }
+mark {
+    background-color:#ff9;
+    font-style:italic;
+    font-weight:bold;
+    color:#000;
+    }
+del {text-decoration:line-through;}
+abbr[title],
+dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+    }
+
+hr {
+    display:block;
+    margin:1em 0;
+    padding:0;
+    height:1px;
+    border:0;
+    border-top:1px solid #ccc;
+    }
+
+small {font-size:85%;}
+strong {font-weight:bold;}
+
+sub, sup {
+    position:relative;
+    line-height:0;
+    font-size:75%;
+    }
+sup {top:-0.5em;}
+sub {bottom:-0.25em;}
+
+pre {
+    white-space:pre;
+    white-space:pre-wrap;
+    word-wrap:break-word;
+    padding:15px;
+    }
+
+/* Selection */
+::-moz-selection {
+    background:#09f;
+    color:#fff;
+    text-shadow:none;
+    }
+::selection {
+    background:#09f;
+    color:#fff;
+    text-shadow:none;
+    }
+a:link {-webkit-tap-highlight-color:#09f;}
+
+h1, h2, h3, h4, h5, h6 {font-weight:bold;}
+a {color:#03f;}
+a:hover {color:#69f;}
+
+
+
+.ie7 img {-ms-interpolation-mode:bicubic;}
