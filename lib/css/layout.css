@@ -1,10 +1,14 @@
-/* Layout */
+/*
+ - UI-Library component - Layout
+ - @author: AKotomanov
+ -----------------------------------------------------------------------------*/
 
 html {overflow-y:scroll;}
 
 html, body {height:100%;}
 
 
+/* Media queries for mobile devices */
 
 @media all and (orientation:portrait) {
 

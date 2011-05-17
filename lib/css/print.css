@@ -1,3 +1,8 @@
+/*
+ - UI-Library component - Print styles
+ - @author: AKotomanov
+ -----------------------------------------------------------------------------*/
+
 @media print {
     * {
         background:transparent !important;

@@ -1,0 +1,26 @@
+/* Text field
+ -------------------------------------------------------------------------------- */
+
+.text-field {
+    padding:5px;
+    width:290px;
+    height:14px;
+    border:1px solid rgba(172, 222, 245, .8);
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    background:rgba(255, 255, 255, .8);
+    -webkit-box-shadow:inset 0 0 10px rgba(0, 174, 239, .2);
+    -moz-box-shadow:inset 0 0 10px rgba(0, 174, 239, .2);
+    box-shadow:inset 0 0 10px rgba(0, 174, 239, .2);
+    vertical-align:middle;
+    font:normal 1.2em/14px Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .text-field:focus {
+        outline:none;
+        border:1px solid rgba(172, 222, 245, 1);
+        background:rgba(247, 247, 247, .8);
+        -moz-box-shadow:inset 0 0 10px rgba(0, 174, 239, .2), 0 0 4px rgba(172, 222, 245, .8); /* FF3.5+ */
+        -webkit-box-shadow:inset 0 0 10px rgba(0, 174, 239, .2), 0 0 4px rgba(172, 222, 245, .8); /* Saf3.0+, Chrome */
+        box-shadow:inset 0 0 10px rgba(0, 174, 239, .2), 0 0 4px rgba(172, 222, 245, .8); /* Opera 10.5, IE9 */
+        }

@@ -1,5 +1,9 @@
 <component name="CopyrightManager">
-  <settings default="">
+  <settings default="UIL">
     <module2copyright />
+    <LanguageOptions name="__TEMPLATE__">
+      <option name="separateAfter" value="true" />
+      <option name="filler" value="-" />
+    </LanguageOptions>
   </settings>
 </component>
