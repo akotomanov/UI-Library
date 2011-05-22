@@ -16,6 +16,9 @@
   <component name="ChangeListManager">
     <list default="true" id="045eb717-a483-4a70-b3e1-586148081df4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/css/layout.css" afterPath="$PROJECT_DIR$/lib/css/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/css/typography.css" afterPath="$PROJECT_DIR$/lib/css/typography.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/typography.html" afterPath="$PROJECT_DIR$/lib/typography.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="UI-Library.iws" />
@@ -76,15 +79,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="forms_text_field.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/forms_text_field.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="827" selection-end="827" vertical-scroll-proportion="-14.285714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="text_field.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/css/text_field.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,16 +100,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="50" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-12.571428">
+            <state line="36" column="50" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-20.571428">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.17560975">
+            <state line="4" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,20 +124,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helper.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/css/helper.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="62" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="32" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="69" column="9" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1306098909000" expanded="true" signature="725:817" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +147,25 @@
       <file leaf-file-name="typography.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/css/typography.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="47" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+            <state line="144" column="23" selection-start="2556" selection-end="2629" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typography.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/typography.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="193" column="0" selection-start="9151" selection-end="9151" vertical-scroll-proportion="0.641196">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="32" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,22 +185,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/css/reset.css" />
         <option value="$PROJECT_DIR$/lib/css/nav.css" />
         <option value="$PROJECT_DIR$/lib/css/table.css" />
         <option value="$PROJECT_DIR$/lib/css/helper.css" />
-        <option value="$PROJECT_DIR$/lib/css/typography.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lib/css/buttons.css" />
         <option value="$PROJECT_DIR$/lib/css/print.css" />
         <option value="$PROJECT_DIR$/lib/css/forms.css" />
-        <option value="$PROJECT_DIR$/lib/css/layout.css" />
         <option value="$PROJECT_DIR$/lib/css/style.css" />
         <option value="$PROJECT_DIR$/lib/css/text_field.css" />
         <option value="$PROJECT_DIR$/lib/forms_text_field.html" />
         <option value="$PROJECT_DIR$/lib/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/lib/css/layout.css" />
+        <option value="$PROJECT_DIR$/lib/css/typography.css" />
+        <option value="$PROJECT_DIR$/lib/typography.html" />
       </list>
     </option>
   </component>
@@ -231,6 +236,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Favorites">
         <subPane subId="UI-Library">
           <PATH>
@@ -241,8 +248,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,16 +317,16 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="145" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="930" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="928" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="930" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="143" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="140" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -410,17 +415,17 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5109489" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24227175" sideWeight="0.670073" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24227175" sideWeight="0.670073" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -504,60 +509,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/typography.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="844" selection-end="844" vertical-scroll-proportion="-0.5714286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/nav_main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="45" selection-start="1294" selection-end="1294" vertical-scroll-proportion="-18.666666">
-          <folding />
-        </state>
+        <state line="38" column="45" selection-start="1294" selection-end="1294" vertical-scroll-proportion="-18.666666" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/buttons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="81" selection-start="33" selection-end="113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/print.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="22" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/forms.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/helper.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="62" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+        <state line="19" column="62" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/forms_text_field.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="32" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/lib/css/text_field.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="32" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="44" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="15" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/nav.css">
@@ -565,30 +556,9 @@
         <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/typography.css">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="47" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/forms_text_field.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="827" selection-end="827" vertical-scroll-proportion="-14.285714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/text_field.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+        <state line="4" column="28" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -600,16 +570,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="9" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1306098909000" expanded="true" signature="725:817" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="50" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-12.571428">
+        <state line="36" column="50" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-20.571428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/lib/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.17560975">
+        <state line="28" column="32" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/typography.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="23" selection-start="2556" selection-end="2629" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/typography.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="0" selection-start="9151" selection-end="9151" vertical-scroll-proportion="0.641196">
           <folding />
         </state>
       </provider>

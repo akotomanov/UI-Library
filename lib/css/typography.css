@@ -1,19 +1,173 @@
 /* Typography styles
  -------------------------------------------------------------------------------- */
-
 body {
-    font:13px/1.231 sans-serif;
-    *font-size:small;
-    color:#333;
+	font:normal 62.5% "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color:#333;
+	}
+
+/* links */
+a {
+    text-decoration:underline;
+    color:#03f;
+    }
+    a:hover {
+        text-decoration:none;
+        color:#69f;
+        }
+    a:hover,
+    a:active {outline:none;}
+
+/* titles */
+h1, h2, h3, h4 {
+	margin:3em 0 1em;
+	font-family:"Trebuchet MS", Tahoma, Arial, sans-serif;
+	font-weight:normal;
+    color:#600;
+	}
+h1, h2 {
+	margin-top:0;
+	font-size:2.2em;
+	}
+h3 {font-size:2em;}
+h4 {font-size:1.8em;}
+h5 {
+    margin:1em 0 .5em;
+	font-size:1.6em;
+	font-weight:bold;
+	}
+h6 {
+    margin:0 0 .5em;
+    font-size:1.4em;
+    font-weight:bold;
+	}
+
+/* paragraph */
+p {
+	margin-bottom:1em;
+	text-indent:0;
+	line-height:1.5em;
+	font-size:1.4em;
+	}
+
+/* images */
+figure {margin:0 0 .5em;}
+    figure img {
+        display:block;
+        margin:0 0 .5em;
+        }
+    figure figcaption {
+        line-height:1.3em;
+        font-size:1.1em;
+        color:#ccc;
+        }
+.ie7 img {-ms-interpolation-mode:bicubic;}
+
+
+/* lists :: unordered list */
+ul {
+	margin:0 0 1em 2em;
+	padding:0;
+	list-style-type:circle;
+    }
+	ul li {
+		padding:0;
+		line-height:1.5em;
+		font-size:1.4em;
+		}
+		ul li ul {margin:0 0 0 2em;}
+			ul li li {font-size:1em;}
+
+/* lists :: ordered list */
+ol {
+	margin:0 0 1em 2em;
+	padding:0;
+	list-style-type:decimal;
+	}
+    ol li {
+        line-height:1.5em;
+        font-size:1.4em;
+        }
+    	ol li ol {
+            margin:0 0 .2em 2em;
+            list-style-type:lower-latin;
+            }
+        	* html ol li ol {margin:0 0 .2em 2em;}
+        	*+html ol li ol {margin:0 0 .2em 2em;}
+    		ol li li {font-size:1em;}
+
+/* lists :: definition list */
+dl {margin:0 0 1em;}
+    dl dt, dl dd {
+        line-height:1.5em;
+        font-size:1.4em;
+        }
+    dl dt {
+        margin:.5em 0 0;
+        font-weight:bold;
+        }
+    dl dd {margin:0 0 0 2em;}
+
+/* quotes */
+blockquote {
+	margin:1.5em 0;
+	padding:.5em 35px;
+	font-style:italic;
+	color:#666;
+	border-left:5px solid #ddd;
+	}
+    blockquote * {margin:0;}
+
+/* hr */
+hr {
+	display:block;
+	margin:1.5em 0;
+	height:1px;
+	border:none;
+	border-bottom:1px dashed #ccc;
+	}
+
+/* other stuff */
+address {font-size:1.3em;}
+
+pre,
+code,
+kbd,
+samp {
+	padding:2px 4px;
+    font-family:"Courier New", Courier, monospace;
+	color:#666;
+	}
+pre {
+    display:block;
+    margin:1em 0;
+    padding:.5em;
+    border:1px solid #eee;
+    background:#ffc;
+    white-space:pre;
+    white-space:pre-wrap;
+    word-wrap:break-word;
     }
 
-pre, code, kbd, samp {font-family:monospace, sans-serif;}
+sup {vertical-align:super;}
+sub {vertical-align:sub;}
+big {font-size:1.2em;}
+small, sup, sub {font-size:.85em;}
 
+abbr,
+acronym {
+    text-transform:uppercase;
+	font-size:.85em;
+	letter-spacing:.1em;
+	}
+    a abbr,
+    a acronym {border:none;}
 
-a:hover, a:active { outline: none; }
-ul, ol { margin-left: 2em; }
-ol { list-style-type: decimal; }
-
+abbr[title],
+acronym[title],
+dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+	}
 
 ins {
     background-color:#ff9;
@@ -27,38 +181,8 @@ mark {
     color:#000;
     }
 del {text-decoration:line-through;}
-abbr[title],
-dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-    }
 
-hr {
-    display:block;
-    margin:1em 0;
-    padding:0;
-    height:1px;
-    border:0;
-    border-top:1px solid #ccc;
-    }
 
-small {font-size:85%;}
-strong {font-weight:bold;}
-
-sub, sup {
-    position:relative;
-    line-height:0;
-    font-size:75%;
-    }
-sup {top:-0.5em;}
-sub {bottom:-0.25em;}
-
-pre {
-    white-space:pre;
-    white-space:pre-wrap;
-    word-wrap:break-word;
-    padding:15px;
-    }
 
 /* Selection */
 ::-moz-selection {
@@ -73,10 +197,20 @@ pre {
     }
 a:link {-webkit-tap-highlight-color:#09f;}
 
-h1, h2, h3, h4, h5, h6 {font-weight:bold;}
-a {color:#03f;}
-a:hover {color:#69f;}
 
 
 
-.ie7 img {-ms-interpolation-mode:bicubic;}
+
+
+
+
+
+
+
+
+
+
+/* Specail styles */
+.georgia-16 p {font:normal 1.6em/24px Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;}
+.times-14 p {font:normal 1.4em/16px Times, "Times New Roman", Georgia, serif;}
+.palatino-18 p {font:normal 1.8em/24px Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;}
