@@ -1,0 +1,7 @@
+﻿UI-Library Authors
+
+This software consists of voluntary contributions made by many
+individuals. For exact contribution history, see the revision history
+and logs, available at https://github.com/akotomanov/UI-Library
+
+Alex Kotomanov (alex.kotomanov.com)
