@@ -1,13 +1,13 @@
-@import "reset.css";
-@import "typography.css";
+@import "core/reset.css";
+@import "core/typography.css";
 @import "table.css";
-@import "layout.css";
+@import "core/layout.css";
 @import "buttons.css";
 @import "text_field.css";
 @import "forms.css";
-@import "helper.css";
+@import "core/helper.css";
 
-@import "print.css";
+@import "core/print.css";
 
 @import "nav.css";
 
