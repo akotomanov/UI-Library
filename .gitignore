@@ -4,3 +4,4 @@
 *.iml
 *~
 thumbs.db
+.DS_Store
