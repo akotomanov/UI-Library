@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+	<link type="text/css" href="../lib/css/style.css" rel="stylesheet"/>
+    <style type="text/css">
+        #wrapper {
+            background:#cf3;
+            }
+        #header {
+            background:#3fc;
+            }
+        #footer {
+            background:#fc3;
+            }
+        #content {
+            background:#ccc;
+            }
+    </style>
+</head>
+<body>
+
+    <div id="page">
+
+        <header id="branding" role="banner">
+            <hgroup>
+                <h1 id="site-title">
+                    <a href="#" title="Site title" rel="home">Site title</a>
+                </h1>
+                <h2 id="site-description">Site description</h2>
+            </hgroup>
+        </header>
+        <!-- /#branding -->
+
+        <div id="content-sidebar-wrapper" class="clear">
+            <div id="content-wrapper">
+                <div id="content-container" class="clear">
+                    <!-- content-main -->
+                    <div id="content-main">
+                        <article id="content">
+                            <p>{content}</p>
+                        </article><!-- /#content -->
+                    </div>
+                    <!-- /#content-main -->
+                </div><!-- /#content-container -->
+            </div><!-- /#content-wrapper -->
+        </div>
+        <!-- /content-sidebar-wrapper -->
+
+        <nav id="nav-main" role="navigation">
+            <h3 class="assistive-text">Main menu</h3>
+            <div class="skip-link">
+                <a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a>
+            </div>
+
+            <ul id="nav-main-menu" class="menu">
+                <li><a href="#"></a></li>
+            </ul>
+        </nav>
+        <!-- /#main-nav -->
+
+        <footer id="colophon" role="contentinfo">
+            {footer}
+        </footer>
+        <!-- /#colophon -->
+
+    </div><!-- /#page -->
+
+</body>
+</html>

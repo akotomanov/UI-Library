@@ -4,10 +4,6 @@
  -----------------------------------------------------------------------------*/
 
 html {overflow-y:scroll;}
-
-html, body {height:100%;}
-
-
 html, body {height:100%;}
 body {background:#fff;}
 
@@ -16,7 +12,7 @@ body {background:#fff;}
 #wrapper {
 	position:relative;
 	margin:0 auto;
-    padding:0 30px;
+    padding:0 1.042%;  /* 1.042% = 10px (from 960px) */
 	min-height:100%;
 	text-align:left;
 	}
@@ -24,29 +20,26 @@ body {background:#fff;}
 
 /* Fixed layout (default)
 ---------------------------------------------- */
-#wrapper {width:960px;}
+#wrapper {width:940px;}
 
 /* Flexible layout
 ---------------------------------------------- */
 .flexible #wrapper {
     width:auto;
-    min-width:960px;
+    min-width:940px;
     }
-* html .flexible #wrapper {width:expression((document.documentElement.clientWidth || document.body.clientWidth) <= 960? "960px" : "auto");}
+    * html .flexible #wrapper {
+        width:expression((document.documentElement.clientWidth || document.body.clientWidth) <= 940? "940px" : "auto");
+        }
 
-/* Header
+/* Header & Branding
 ---------------------------------------------- */
 #header {
-    margin:0 1.0416667%;
-    min-height:192px;
+    margin:0;
+    min-height:100px;
+    border-bottom:1px solid #ccc;
     }
-    * html #header {height:192px;} /* IE6 */
-    #header h1 {
-        margin:0;
-        padding:64px 0 0;
-        font:bold 6em/64px "Lucida Console", Consolas, Monaco, monospace;
-        color:#333;
-        }
+    * html #header {height:100px;} /* IE6 */
 
 
 /* Content
@@ -54,23 +47,40 @@ body {background:#fff;}
 #content {margin:0 0 4em;}
 
 
-/* Site Info
+/* Footer & Site Info
 ---------------------------------------------- */
 #footer {
-    margin:0 1.0416667%;
+    position:absolute;
+    top:100%;
+    margin-top:-50px;  /* margin-top = - (height + padding) */
     padding:10px 0;
-    min-height:15px;
-    border-top:1px solid #ccc;
+    width:940px;
+    min-height:30px;
     }
-    * html #footer {height:15px;} /* IE6 */
-    #footer .copyright {
+    * html #footer {height:30px;} /* IE6 */
+    #footer p {
         margin:0;
-        font-size:1.2em;
-        color:#464646;
         }
 
 
-/* Media queries for mobile devices */
+
+/* Media queries for mobile devices
+---------------------------------------------- */
+/* TODO:Refactor it */
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
 
 @media all and (orientation:portrait) {
 

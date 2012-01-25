@@ -2,6 +2,7 @@
 @import "core/typography.css";
 @import "table.css";
 @import "core/layout.css";
+@import "core/grid.css";
 @import "buttons.css";
 @import "text_field.css";
 @import "forms.css";
